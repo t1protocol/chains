@@ -18,7 +18,7 @@
   "explorers": [
     {
       "name": "blockscout-t1testnet",
-      "url": "https://explorer.v010.t1protocol.com/",
+      "url": "https://explorer.v010.t1protocol.com",
       "icon": "blockscout",
       "standard": "EIP3091"
     }
