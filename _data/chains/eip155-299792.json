@@ -2,9 +2,7 @@
   "name": "t1 Testnet",
   "title": "t1 Testnet ",
   "chain": "t1",
-  "rpc": [
-    "https://rpc.v010.t1protocol.com"
-  ],
+  "rpc": ["https://rpc.v010.t1protocol.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "t1 Ether",
@@ -26,8 +24,8 @@
     }
   ],
   "parent": {
-    "type" : "L2",
+    "type": "L2",
     "chain": "eip155-11155111",
-    "bridges": [ {"url":"https://devnet.t1protocol.com/bridge"} ]
-   }
+    "bridges": [{ "url": "https://devnet.t1protocol.com/bridge" }]
+  }
 }
