@@ -1,0 +1,28 @@
+{
+  "name": "t1 Testnet",
+  "title": "t1 Testnet ",
+  "chain": "t1",
+  "rpc": [
+    "https://rpc.v010.t1protocol.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "t1 Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://devnet.t1protocol.com/",
+  "shortName": "t1testnet",
+  "chainId": 299792,
+  "networkId": 299792,
+  "slip44": 1,
+  "icon": "t1Testnet",
+  "explorers": [
+    {
+      "name": "blockscout-t1testnet",
+      "url": "https://explorer.v010.t1protocol.com/",
+      "icon": "blockscout",
+      "standard": "EIP3091"
+    }
+  ]
+}
