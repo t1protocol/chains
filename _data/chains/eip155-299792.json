@@ -1,24 +1,24 @@
 {
-  "name": "t1 Testnet",
-  "title": "t1 Testnet ",
-  "chain": "t1 Testnet",
-  "rpc": ["https://rpc.testnet.t1protocol.com"],
+  "name": "t1 Mainnet",
+  "title": "t1 Mainnet ",
+  "chain": "t1 Mainnet",
+  "rpc": ["https://rpc.mainnet.t1protocol.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
     "symbol": "ETH",
     "decimals": 18
   },
-  "infoURL": "https://testnet.t1protocol.com/",
-  "shortName": "t1testnet",
+  "infoURL": "https://mainnet.t1protocol.com/",
+  "shortName": "t1",
   "chainId": 299792,
   "networkId": 299792,
   "slip44": 1,
-  "icon": "t1Testnet",
+  "icon": "t1",
   "explorers": [
     {
-      "name": "t1 Testnet Explorer",
-      "url": "https://explorer.testnet.t1protocol.com",
+      "name": "t1 Mainnet Explorer",
+      "url": "https://explorer.mainnet.t1protocol.com",
       "icon": "blockscout",
       "standard": "EIP3091"
     }
@@ -26,6 +26,6 @@
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111",
-    "bridges": [{ "url": "https://testnet.t1protocol.com/bridge" }]
+    "bridges": [{ "url": "https://mainnet.t1protocol.com/bridge" }]
   }
 }
